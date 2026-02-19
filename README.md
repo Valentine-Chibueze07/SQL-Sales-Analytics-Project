@@ -1,6 +1,6 @@
-SQL-Sales-Analytics-Project
+**SQL-Sales-Analytics-Project**
 This project simulates a real-world B2B FMCG distribution system operating across multiple states in Nigeria. The goal was to design and query a relational database that tracks sales operations, product distribution, agent performance, customer credit exposure, and payment reconciliation.
- Overview
+** Overview**
 
 This project demonstrates end-to-end SQL Server data analytics using a structured relational database.
 
@@ -20,7 +20,7 @@ Credit Limits
 
 All analysis was performed using Microsoft SQL Server (T-SQL).
 
- Business Objectives
+ **Business Objectives**
 
 The project answers critical business questions such as:
 
@@ -34,7 +34,7 @@ What orders were delivered but not paid?
 
 Which customers exceed their credit limits?
 
- Technical Skills Demonstrated
+** Technical Skills Demonstrated**
 
 INNER JOIN / LEFT JOIN
 
@@ -52,7 +52,7 @@ Query Optimization Techniques
 
 Stored Procedures & Variables
 
- Sample SQL Concepts Used
+** Sample SQL Concepts Used**
 ✔ Revenue Aggregation
 SELECT SUM(NetAmount) AS TotalRevenue
 FROM SalesOrders
@@ -64,7 +64,7 @@ RANK() OVER (ORDER BY SUM(NetAmount) DESC)
 ✔ Detecting Unpaid Orders
 WHERE PaymentID IS NULL
 
- Key Insights Generated
+** Key Insights Generated**
 
 Identified top-performing sales agents
 
@@ -76,7 +76,7 @@ Measured delivery performance trends
 
 Ranked sales contribution by region
 
- Tools Used
+** Tools Used**
 
 SQL Server (T-SQL)
 
